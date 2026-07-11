@@ -1,0 +1,193 @@
+2026-07-08 11:57:53,210 - src.chunker - INFO - Splitting 1 documents with chunk_size=500 and overlap=100
+2026-07-08 11:57:53,211 - src.chunker - INFO - Generated 3 chunks.
+2026-07-08 11:59:26,069 - src.embeddings - INFO - Initializing embedding model: nomic-embed-text
+2026-07-08 11:59:26,083 - src.vector_store - INFO - Connecting to ChromaDB at /home/crdy/RAGsystem/vectordb
+2026-07-08 11:59:26,199 - src.vector_store - INFO - Adding 1 chunks to vector store...
+2026-07-08 11:59:26,567 - src.vector_store - INFO - Successfully added chunks to vector store.
+2026-07-08 11:59:26,568 - src.embeddings - INFO - Initializing embedding model: nomic-embed-text
+2026-07-08 11:59:26,588 - src.vector_store - INFO - Connecting to ChromaDB at /home/crdy/RAGsystem/vectordb
+2026-07-08 12:01:14,154 - src.chunker - INFO - Splitting 1 documents with chunk_size=500 and overlap=100
+2026-07-08 12:01:14,156 - src.chunker - INFO - Generated 3 chunks.
+2026-07-08 12:01:14,164 - src.embeddings - INFO - Initializing embedding model: nomic-embed-text
+2026-07-08 12:01:14,176 - src.vector_store - INFO - Connecting to ChromaDB at /home/crdy/RAGsystem/vectordb
+2026-07-08 12:01:14,281 - src.vector_store - INFO - Adding 1 chunks to vector store...
+2026-07-08 12:01:14,374 - src.vector_store - INFO - Successfully added chunks to vector store.
+2026-07-08 12:01:14,375 - src.embeddings - INFO - Initializing embedding model: nomic-embed-text
+2026-07-08 12:01:14,405 - src.vector_store - INFO - Connecting to ChromaDB at /home/crdy/RAGsystem/vectordb
+2026-07-08 12:18:34,740 - src.chunker - INFO - Splitting 1 documents with chunk_size=500 and overlap=100
+2026-07-08 12:18:34,740 - src.chunker - INFO - Generated 12 chunks.
+2026-07-08 12:18:34,741 - src.embeddings - INFO - Initializing embedding model: nomic-embed-text
+2026-07-08 12:18:34,752 - src.vector_store - INFO - Connecting to ChromaDB at /home/crdy/RAGsystem/vectordb
+2026-07-08 12:18:34,844 - src.vector_store - INFO - Adding 12 chunks to vector store...
+2026-07-08 12:18:37,011 - src.vector_store - INFO - Successfully added chunks to vector store.
+2026-07-08 12:18:37,011 - src.retriever - INFO - Retrieving top 3 documents for query: 'cybersecurity benchmark'
+2026-07-08 12:18:37,012 - src.embeddings - INFO - Initializing embedding model: nomic-embed-text
+2026-07-08 12:18:37,028 - src.vector_store - INFO - Connecting to ChromaDB at /home/crdy/RAGsystem/vectordb
+2026-07-08 12:18:37,124 - src.retriever - INFO - Retrieved 3 documents.
+2026-07-08 12:18:37,126 - src.generator - INFO - Initializing LLM: qwen2.5-coder:7b
+2026-07-08 12:18:37,145 - src.generator - INFO - Generating answer for query: 'cybersecurity benchmark'
+2026-07-08 12:19:33,475 - src.indexer - INFO - Indexing /home/crdy/RAGsystem/documents/test_apple.txt...
+2026-07-08 12:19:33,475 - src.chunker - INFO - Splitting 1 documents with chunk_size=500 and overlap=100
+2026-07-08 12:19:33,476 - src.chunker - INFO - Generated 1 chunks.
+2026-07-08 12:19:33,476 - src.embeddings - INFO - Initializing embedding model: nomic-embed-text
+2026-07-08 12:19:33,490 - src.vector_store - INFO - Connecting to ChromaDB at /home/crdy/RAGsystem/vectordb
+2026-07-08 12:19:33,589 - src.vector_store - INFO - Adding 1 chunks to vector store...
+2026-07-08 12:19:33,657 - src.vector_store - INFO - Successfully added chunks to vector store.
+2026-07-08 12:19:33,658 - src.indexer - INFO - Successfully indexed /home/crdy/RAGsystem/documents/test_apple.txt
+2026-07-08 12:19:33,658 - src.retriever - INFO - Retrieving top 3 documents for query: 'What color is the apple?'
+2026-07-08 12:19:33,659 - src.embeddings - INFO - Initializing embedding model: nomic-embed-text
+2026-07-08 12:19:33,680 - src.vector_store - INFO - Connecting to ChromaDB at /home/crdy/RAGsystem/vectordb
+2026-07-08 12:19:33,761 - src.retriever - INFO - Retrieved 3 documents.
+2026-07-08 12:19:33,762 - src.generator - INFO - Initializing LLM: qwen2.5-coder:7b
+2026-07-08 12:19:33,773 - src.generator - INFO - Generating answer for query: 'What color is the apple?'
+2026-07-08 12:19:46,578 - src.retriever - INFO - Retrieving top 3 documents for query: 'What is the wingspan of a Martian dragon?'
+2026-07-08 12:19:46,578 - src.embeddings - INFO - Initializing embedding model: nomic-embed-text
+2026-07-08 12:19:46,589 - src.vector_store - INFO - Connecting to ChromaDB at /home/crdy/RAGsystem/vectordb
+2026-07-08 12:19:46,641 - src.retriever - INFO - Retrieved 3 documents.
+2026-07-08 12:19:46,642 - src.generator - INFO - Initializing LLM: qwen2.5-coder:7b
+2026-07-08 12:19:46,658 - src.generator - INFO - Generating answer for query: 'What is the wingspan of a Martian dragon?'
+2026-07-08 12:19:53,489 - src.embeddings - INFO - Initializing embedding model: nomic-embed-text
+2026-07-08 12:19:53,499 - src.vector_store - INFO - Connecting to ChromaDB at /home/crdy/RAGsystem/vectordb
+2026-07-08 12:19:53,554 - src.watcher - INFO - Started watching directory: /home/crdy/RAGsystem/documents
+2026-07-08 12:19:56,552 - src.watcher - INFO - File event detected: /home/crdy/RAGsystem/documents/test_watcher.txt
+2026-07-08 12:19:56,553 - src.indexer - INFO - Indexing /home/crdy/RAGsystem/documents/test_watcher.txt...
+2026-07-08 12:19:56,553 - src.chunker - INFO - Splitting 1 documents with chunk_size=500 and overlap=100
+2026-07-08 12:19:56,554 - src.chunker - INFO - Generated 1 chunks.
+2026-07-08 12:19:56,554 - src.embeddings - INFO - Initializing embedding model: nomic-embed-text
+2026-07-08 12:19:56,580 - src.vector_store - INFO - Connecting to ChromaDB at /home/crdy/RAGsystem/vectordb
+2026-07-08 12:19:56,593 - src.vector_store - INFO - Adding 1 chunks to vector store...
+2026-07-08 12:19:56,689 - src.vector_store - INFO - Successfully added chunks to vector store.
+2026-07-08 12:19:56,691 - src.indexer - INFO - Successfully indexed /home/crdy/RAGsystem/documents/test_watcher.txt
+2026-07-08 12:19:57,691 - src.watcher - INFO - File event detected: /home/crdy/RAGsystem/documents/test_watcher.txt
+2026-07-08 12:19:57,692 - src.indexer - INFO - Skipping /home/crdy/RAGsystem/documents/test_watcher.txt (Unchanged).
+2026-07-08 12:20:00,551 - src.embeddings - INFO - Initializing embedding model: nomic-embed-text
+2026-07-08 12:20:00,575 - src.vector_store - INFO - Connecting to ChromaDB at /home/crdy/RAGsystem/vectordb
+2026-07-11 10:10:17,114 - src.indexer - INFO - Incremental indexing complete. Indexed 0 new/modified files.
+2026-07-11 10:11:08,972 - src.retriever - INFO - Retrieving top 3 documents for query: 'hi '
+2026-07-11 10:11:08,972 - src.embeddings - INFO - Initializing embedding model: nomic-embed-text
+2026-07-11 10:11:09,008 - src.vector_store - INFO - Connecting to ChromaDB at /home/crdy/RAGsystem/vectordb
+2026-07-11 10:11:09,779 - src.retriever - INFO - Retrieved 3 documents.
+2026-07-11 10:11:09,781 - src.generator - INFO - Initializing LLM: qwen2.5-coder:7b
+2026-07-11 10:11:09,792 - src.generator - INFO - Streaming answer for query: 'hi '
+2026-07-11 10:12:16,051 - src.retriever - INFO - Retrieving top 3 documents for query: 'who are you.'
+2026-07-11 10:12:16,051 - src.embeddings - INFO - Initializing embedding model: nomic-embed-text
+2026-07-11 10:12:16,080 - src.vector_store - INFO - Connecting to ChromaDB at /home/crdy/RAGsystem/vectordb
+2026-07-11 10:12:16,189 - src.retriever - INFO - Retrieved 3 documents.
+2026-07-11 10:12:16,191 - src.generator - INFO - Initializing LLM: qwen2.5-coder:7b
+2026-07-11 10:12:16,219 - src.generator - INFO - Streaming answer for query: 'who are you.'
+2026-07-11 10:12:55,674 - src.indexer - INFO - Indexing /home/crdy/RAGsystem/documents/Linux/linux_hardening.md...
+2026-07-11 10:12:55,674 - src.chunker - INFO - Splitting 1 documents with chunk_size=500 and overlap=100
+2026-07-11 10:12:55,674 - src.chunker - INFO - Generated 6 chunks.
+2026-07-11 10:12:55,674 - src.embeddings - INFO - Initializing embedding model: nomic-embed-text
+2026-07-11 10:12:55,688 - src.vector_store - INFO - Connecting to ChromaDB at /home/crdy/RAGsystem/vectordb
+2026-07-11 10:12:55,794 - src.vector_store - INFO - Adding 6 chunks to vector store...
+2026-07-11 10:12:56,553 - src.vector_store - INFO - Successfully added chunks to vector store.
+2026-07-11 10:12:56,553 - src.indexer - INFO - Successfully indexed /home/crdy/RAGsystem/documents/Linux/linux_hardening.md
+2026-07-11 10:12:56,554 - src.indexer - INFO - Indexing /home/crdy/RAGsystem/documents/OWASP/owasp_top_10_2021.md...
+2026-07-11 10:12:56,554 - src.chunker - INFO - Splitting 1 documents with chunk_size=500 and overlap=100
+2026-07-11 10:12:56,554 - src.chunker - INFO - Generated 9 chunks.
+2026-07-11 10:12:56,554 - src.embeddings - INFO - Initializing embedding model: nomic-embed-text
+2026-07-11 10:12:56,568 - src.vector_store - INFO - Connecting to ChromaDB at /home/crdy/RAGsystem/vectordb
+2026-07-11 10:12:56,583 - src.vector_store - INFO - Adding 9 chunks to vector store...
+2026-07-11 10:12:57,572 - src.vector_store - INFO - Successfully added chunks to vector store.
+2026-07-11 10:12:57,574 - src.indexer - INFO - Successfully indexed /home/crdy/RAGsystem/documents/OWASP/owasp_top_10_2021.md
+2026-07-11 10:12:57,574 - src.indexer - INFO - Indexing /home/crdy/RAGsystem/documents/Docker/docker_security.md...
+2026-07-11 10:12:57,574 - src.chunker - INFO - Splitting 1 documents with chunk_size=500 and overlap=100
+2026-07-11 10:12:57,574 - src.chunker - INFO - Generated 5 chunks.
+2026-07-11 10:12:57,574 - src.embeddings - INFO - Initializing embedding model: nomic-embed-text
+2026-07-11 10:12:57,588 - src.vector_store - INFO - Connecting to ChromaDB at /home/crdy/RAGsystem/vectordb
+2026-07-11 10:12:57,593 - src.vector_store - INFO - Adding 5 chunks to vector store...
+2026-07-11 10:12:58,241 - src.vector_store - INFO - Successfully added chunks to vector store.
+2026-07-11 10:12:58,242 - src.indexer - INFO - Successfully indexed /home/crdy/RAGsystem/documents/Docker/docker_security.md
+2026-07-11 10:12:58,242 - src.indexer - INFO - Incremental indexing complete. Indexed 3 new/modified files.
+2026-07-11 10:13:53,819 - src.retriever - INFO - Retrieving top 3 documents for query: 'What is A04 in the OWASP top 10?'
+2026-07-11 10:13:53,820 - src.embeddings - INFO - Initializing embedding model: nomic-embed-text
+2026-07-11 10:13:53,846 - src.vector_store - INFO - Connecting to ChromaDB at /home/crdy/RAGsystem/vectordb
+2026-07-11 10:13:54,054 - src.retriever - INFO - Retrieved 3 documents.
+2026-07-11 10:13:54,056 - src.generator - INFO - Initializing LLM: qwen2.5-coder:7b
+2026-07-11 10:13:54,068 - src.generator - INFO - Streaming answer for query: 'What is A04 in the OWASP top 10?'
+2026-07-11 10:15:06,754 - src.retriever - INFO - Retrieving top 3 documents for query: 'What is A04 in the OWASP top 10?'
+2026-07-11 10:15:06,754 - src.embeddings - INFO - Initializing embedding model: nomic-embed-text
+2026-07-11 10:15:06,766 - src.vector_store - INFO - Connecting to ChromaDB at /home/crdy/RAGsystem/vectordb
+2026-07-11 10:15:06,969 - src.retriever - INFO - Retrieved 3 documents.
+2026-07-11 10:16:11,916 - src.retriever - INFO - Retrieving top 10 documents for query: 'What is A04 in the OWASP top 10?'
+2026-07-11 10:16:11,916 - src.embeddings - INFO - Initializing embedding model: nomic-embed-text
+2026-07-11 10:16:11,941 - src.vector_store - INFO - Connecting to ChromaDB at /home/crdy/RAGsystem/vectordb
+2026-07-11 10:16:12,155 - src.retriever - INFO - Retrieved 10 documents.
+2026-07-11 10:16:12,156 - src.generator - INFO - Initializing LLM: qwen2.5-coder:7b
+2026-07-11 10:16:12,168 - src.generator - INFO - Streaming answer for query: 'What is A04 in the OWASP top 10?'
+2026-07-11 10:16:47,626 - src.retriever - INFO - Retrieving top 10 documents for query: 'hi'
+2026-07-11 10:16:47,626 - src.embeddings - INFO - Initializing embedding model: nomic-embed-text
+2026-07-11 10:16:47,638 - src.vector_store - INFO - Connecting to ChromaDB at /home/crdy/RAGsystem/vectordb
+2026-07-11 10:16:47,693 - src.retriever - INFO - Retrieved 10 documents.
+2026-07-11 10:16:47,695 - src.generator - INFO - Initializing LLM: qwen2.5-coder:7b
+2026-07-11 10:16:47,714 - src.generator - INFO - Streaming answer for query: 'hi'
+2026-07-11 10:20:29,466 - src.retriever - INFO - Retrieving top 10 documents for query: ' python main.py --watch'
+2026-07-11 10:20:29,467 - src.embeddings - INFO - Initializing embedding model: nomic-embed-text
+2026-07-11 10:20:29,493 - src.vector_store - INFO - Connecting to ChromaDB at /home/crdy/RAGsystem/vectordb
+2026-07-11 10:20:29,585 - src.retriever - INFO - Retrieved 10 documents.
+2026-07-11 10:20:29,586 - src.generator - INFO - Initializing LLM: qwen2.5-coder:7b
+2026-07-11 10:20:29,609 - src.generator - INFO - Streaming answer for query: ' python main.py --watch'
+2026-07-11 10:20:36,912 - src.watcher - INFO - Started watching directory: /home/crdy/RAGsystem/documents
+2026-07-11 10:22:31,700 - src.watcher - INFO - Stopping watcher...
+2026-07-11 10:26:08,956 - src.retriever - INFO - Retrieving top 10 documents for query: 'hello who are you?'
+2026-07-11 10:26:08,957 - src.embeddings - INFO - Initializing embedding model: nomic-embed-text
+2026-07-11 10:26:08,982 - src.vector_store - INFO - Connecting to ChromaDB at /home/crdy/RAGsystem/vectordb
+2026-07-11 10:26:09,693 - src.retriever - INFO - Retrieved 10 documents.
+2026-07-11 10:26:09,694 - src.generator - INFO - Initializing LLM: qwen2.5-coder:7b
+2026-07-11 10:26:09,707 - src.generator - INFO - Streaming answer for query: 'hello who are you?'
+2026-07-11 10:27:07,053 - src.retriever - INFO - Retrieving top 10 documents for query: 'how to hack wifi?'
+2026-07-11 10:27:07,053 - src.embeddings - INFO - Initializing embedding model: nomic-embed-text
+2026-07-11 10:27:07,079 - src.vector_store - INFO - Connecting to ChromaDB at /home/crdy/RAGsystem/vectordb
+2026-07-11 10:27:07,163 - src.retriever - INFO - Retrieved 10 documents.
+2026-07-11 10:27:07,165 - src.generator - INFO - Initializing LLM: qwen2.5-coder:7b
+2026-07-11 10:27:07,189 - src.generator - INFO - Streaming answer for query: 'how to hack wifi?'
+2026-07-11 10:28:11,979 - src.retriever - INFO - Retrieving top 10 documents for query: 'what is latest cve for linux new kernel.'
+2026-07-11 10:28:11,980 - src.embeddings - INFO - Initializing embedding model: nomic-embed-text
+2026-07-11 10:28:12,005 - src.vector_store - INFO - Connecting to ChromaDB at /home/crdy/RAGsystem/vectordb
+2026-07-11 10:28:12,096 - src.retriever - INFO - Retrieved 10 documents.
+2026-07-11 10:28:12,097 - src.generator - INFO - Initializing LLM: qwen2.5-coder:7b
+2026-07-11 10:28:12,111 - src.generator - INFO - Streaming answer for query: 'what is latest cve for linux new kernel.'
+2026-07-11 10:37:32,987 - src.indexer - INFO - Indexing /home/crdy/RAGsystem/documents/Linux/linux_privesc.md...
+2026-07-11 10:37:32,987 - src.chunker - INFO - Splitting 1 documents with chunk_size=500 and overlap=100
+2026-07-11 10:37:32,987 - src.chunker - INFO - Generated 5 chunks.
+2026-07-11 10:37:32,988 - src.embeddings - INFO - Initializing embedding model: nomic-embed-text
+2026-07-11 10:37:33,002 - src.vector_store - INFO - Connecting to ChromaDB at /home/crdy/RAGsystem/vectordb
+2026-07-11 10:37:33,094 - src.vector_store - INFO - Adding 5 chunks to vector store...
+2026-07-11 10:37:34,036 - src.vector_store - INFO - Successfully added chunks to vector store.
+2026-07-11 10:37:34,037 - src.indexer - INFO - Successfully indexed /home/crdy/RAGsystem/documents/Linux/linux_privesc.md
+2026-07-11 10:37:34,037 - src.indexer - INFO - Skipping /home/crdy/RAGsystem/documents/Linux/linux_hardening.md (Unchanged).
+2026-07-11 10:37:34,038 - src.indexer - INFO - Indexing /home/crdy/RAGsystem/documents/CTF/wifi_hacking.md...
+2026-07-11 10:37:34,038 - src.chunker - INFO - Splitting 1 documents with chunk_size=500 and overlap=100
+2026-07-11 10:37:34,038 - src.chunker - INFO - Generated 5 chunks.
+2026-07-11 10:37:34,038 - src.embeddings - INFO - Initializing embedding model: nomic-embed-text
+2026-07-11 10:37:34,052 - src.vector_store - INFO - Connecting to ChromaDB at /home/crdy/RAGsystem/vectordb
+2026-07-11 10:37:34,067 - src.vector_store - INFO - Adding 5 chunks to vector store...
+2026-07-11 10:37:34,869 - src.vector_store - INFO - Successfully added chunks to vector store.
+2026-07-11 10:37:34,870 - src.indexer - INFO - Successfully indexed /home/crdy/RAGsystem/documents/CTF/wifi_hacking.md
+2026-07-11 10:37:34,870 - src.indexer - INFO - Skipping /home/crdy/RAGsystem/documents/OWASP/owasp_top_10_2021.md (Unchanged).
+2026-07-11 10:37:34,870 - src.indexer - INFO - Skipping /home/crdy/RAGsystem/documents/Docker/docker_security.md (Unchanged).
+2026-07-11 10:37:34,870 - src.indexer - INFO - Incremental indexing complete. Indexed 2 new/modified files.
+2026-07-11 10:38:14,605 - src.retriever - INFO - Retrieving top 10 documents for query: 'how to use aircrack-ng tool.'
+2026-07-11 10:38:14,606 - src.embeddings - INFO - Initializing embedding model: nomic-embed-text
+2026-07-11 10:38:14,630 - src.vector_store - INFO - Connecting to ChromaDB at /home/crdy/RAGsystem/vectordb
+2026-07-11 10:38:14,818 - src.retriever - INFO - Retrieved 10 documents.
+2026-07-11 10:38:14,819 - src.generator - INFO - Initializing LLM: qwen2.5-coder:7b
+2026-07-11 10:38:14,836 - src.generator - INFO - Streaming answer for query: 'how to use aircrack-ng tool.'
+2026-07-11 10:39:32,435 - src.retriever - INFO - Retrieving top 10 documents for query: 'tell me commands to hack wifi'
+2026-07-11 10:39:32,436 - src.embeddings - INFO - Initializing embedding model: nomic-embed-text
+2026-07-11 10:39:32,458 - src.vector_store - INFO - Connecting to ChromaDB at /home/crdy/RAGsystem/vectordb
+2026-07-11 10:39:32,537 - src.retriever - INFO - Retrieved 10 documents.
+2026-07-11 10:39:32,538 - src.generator - INFO - Initializing LLM: qwen2.5-coder:7b
+2026-07-11 10:39:32,550 - src.generator - INFO - Streaming answer for query: 'tell me commands to hack wifi'
+2026-07-11 10:40:17,499 - src.internet_fallback - INFO - Internet Fallback Module initialized.
+2026-07-11 10:40:17,499 - src.internet_fallback - INFO - Performing Internet search for: 'tell me commands to hack wifi'
+2026-07-11 10:40:18,084 - src.generator - INFO - Streaming fallback answer for query: 'tell me commands to hack wifi'
+2026-07-11 10:41:59,329 - src.retriever - INFO - Retrieving top 10 documents for query: 'tell me latest cve for linux kernel'
+2026-07-11 10:41:59,329 - src.embeddings - INFO - Initializing embedding model: nomic-embed-text
+2026-07-11 10:41:59,352 - src.vector_store - INFO - Connecting to ChromaDB at /home/crdy/RAGsystem/vectordb
+2026-07-11 10:41:59,444 - src.retriever - INFO - Retrieved 10 documents.
+2026-07-11 10:41:59,446 - src.generator - INFO - Initializing LLM: qwen2.5-coder:7b
+2026-07-11 10:41:59,465 - src.generator - INFO - Streaming answer for query: 'tell me latest cve for linux kernel'
+2026-07-11 10:42:43,899 - src.internet_fallback - INFO - Performing Internet search for: 'tell me latest cve for linux kernel'
+2026-07-11 10:42:44,355 - src.generator - INFO - Streaming fallback answer for query: 'tell me latest cve for linux kernel'

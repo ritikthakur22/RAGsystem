@@ -1,0 +1,9 @@
+{
+    "/home/crdy/RAGsystem/documents/test_apple.txt": "805428d797c56fc8f24b095cce2de1dd7c9f7c40df98db27d137db12652cf927",
+    "/home/crdy/RAGsystem/documents/test_watcher.txt": "438b33cfe7ca35c842f6423cfbc5f05d2f21e555cffea439364b4bf8570622ed",
+    "/home/crdy/RAGsystem/documents/Linux/linux_hardening.md": "553847c1416c961f99a892923d588bbd2f38768bddc006a4670c8fcebcb9b43c",
+    "/home/crdy/RAGsystem/documents/OWASP/owasp_top_10_2021.md": "d15ef62376acda20009d9a385999005298b440550aff84b1f6cfe31e01a13c6f",
+    "/home/crdy/RAGsystem/documents/Docker/docker_security.md": "25fe420916457dfebb7092fec3f3c098f0ac0c8a8b51e3543d25fa285b4556fd",
+    "/home/crdy/RAGsystem/documents/Linux/linux_privesc.md": "12f7fc9c85ca03728f2363cd4869a143225b57e6e0629e6fc88a2edd446d80a0",
+    "/home/crdy/RAGsystem/documents/CTF/wifi_hacking.md": "d1c45aa60f3402713b6d82756214c68156420a020e9f433cd03fb66bd70fc419"
+}

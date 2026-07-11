@@ -1,0 +1,11 @@
+langchain
+langchain-community
+langchain-ollama
+langchain-chroma
+chromadb
+pypdf
+python-docx
+markdown
+watchdog
+pytest
+duckduckgo-search
