@@ -47,8 +47,12 @@ def index_file(filepath: str, hashes: dict) -> bool:
     if not os.path.exists(filepath):
         return False
         
+    rel_key = os.path.relpath(filepath, DOCUMENTS_DIR)
     current_hash = compute_sha256(filepath)
-    if filepath in hashes and hashes[filepath] == current_hash:
+    
+    # Check against both relative and legacy absolute paths
+    if (rel_key in hashes and hashes[rel_key] == current_hash) or \
+       (filepath in hashes and hashes[filepath] == current_hash):
         logger.info(f"Skipping {filepath} (Unchanged).")
         return False
         
@@ -62,12 +66,13 @@ def index_file(filepath: str, hashes: dict) -> bool:
     category = get_category(filepath)
     for doc in docs:
         doc.metadata["category"] = category
-        doc.metadata["source"] = filepath
+        doc.metadata["source"] = os.path.basename(filepath)
+        doc.metadata["rel_path"] = rel_key
         
     chunks = split_documents(docs)
     add_documents_to_store(chunks)
     
-    hashes[filepath] = current_hash
+    hashes[rel_key] = current_hash
     save_hashes(hashes)
     logger.info(f"Successfully indexed {filepath}")
     return True

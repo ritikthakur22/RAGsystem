@@ -1,1 +1,32 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
 
+# Environments
+venv/
+.venv/
+env/
+
+# Vector database & storage
+vectordb/
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# Processed runtime data
+data/processed/
+data/archive/
+data/incoming/
+
+# Temporary test documents
+documents/test_*.txt
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
