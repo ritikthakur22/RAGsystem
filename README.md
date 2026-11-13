@@ -182,6 +182,13 @@ python -m tests.eval
 
 ---
 
+## Acknowledgments
+
+- Built using [LangChain](https://github.com/langchain-ai/langchain), [ChromaDB](https://www.trychroma.com/), and [Ollama](https://ollama.com/).
+- Developed with the assistance of AI tooling for architecture design, pipeline optimization, and documentation.
+
+---
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
